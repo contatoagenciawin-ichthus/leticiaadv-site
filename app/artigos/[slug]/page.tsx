@@ -88,26 +88,31 @@ export default async function ArticlePage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: post.content || "" }}
         />
 
-        <div className="mt-20 p-8 md:p-12 bg-ink rounded-3xl text-paper text-center relative overflow-hidden group">
-          <div className="relative z-10 space-y-6">
-            <h3 className="font-serif text-3xl text-white">Quer que eu olhe o seu caso?</h3>
-            <p className="text-paper/70 font-light text-lg max-w-lg mx-auto">
-              Me conte, em poucas linhas, o que aconteceu. Eu te respondo com o caminho mais seguro.
-            </p>
-            <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-sage text-white px-8 py-4 rounded-xl font-bold hover:bg-white hover:text-ink transition-all duration-300 shadow-lg shadow-sage/20"
-            >
-              <MessageCircle size={20} />
-              Falar no WhatsApp
-            </a>
-          </div>
+        
+        <div className="mt-20 p-8 md:p-12 bg-ink rounded-3xl text-center relative overflow-hidden group">
+  <div className="relative z-10 space-y-6">
+    <h3 className="font-serif text-3xl text-paper">
+      Quer que eu olhe o seu caso?
+    </h3>
 
-          <div className="absolute top-0 right-0 w-64 h-64 bg-sage/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2 pointer-events-none group-hover:bg-sage/30 transition-all duration-700" />
-          <div className="absolute bottom-0 left-0 w-64 h-64 bg-clay/20 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2 pointer-events-none group-hover:bg-clay/30 transition-all duration-700" />
-        </div>
+    <p className="text-paper/80 font-light text-lg max-w-lg mx-auto">
+      Me conte, em poucas linhas, o que aconteceu. Eu te respondo com o caminho mais seguro.
+    </p>
+
+    <a
+      href={whatsappUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 bg-sage text-ink px-8 py-4 rounded-xl font-bold hover:bg-sage/80 transition-all duration-300 shadow-lg shadow-sage/20"
+    >
+      <MessageCircle size={20} />
+      Falar no WhatsApp
+    </a>
+  </div>
+
+  <div className="absolute top-0 right-0 w-64 h-64 bg-sage/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2 pointer-events-none group-hover:bg-sage/30 transition-all duration-700" />
+  <div className="absolute bottom-0 left-0 w-64 h-64 bg-clay/20 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2 pointer-events-none group-hover:bg-clay/30 transition-all duration-700" />
+</div>
       </div>
     </article>
   )

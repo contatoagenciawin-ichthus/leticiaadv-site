@@ -153,6 +153,76 @@ export const articles: Article[] = [
       <p>Por isso, orientação qualificada é indispensável antes de qualquer decisão.</p>
     `,
   },
+    {
+    id: 7,
+    slug: "beneficio-incapacidade-negado",
+    title: "O INSS negou seu benefício por incapacidade? Calma. A luta só começou.",
+    excerpt:
+      "A negativa do INSS é comum — e muitas vezes não significa falta de direito. Entenda os erros mais frequentes no pedido e como evitar perder valores, tempo e proteção para sua família.",
+    date: "02 FEV 2026",
+    category: "Benefício por Incapacidade",
+    readTime: "9 min de leitura",
+    content: `
+      <p>Você pediu um benefício por incapacidade (antigo auxílio-doença) e o INSS negou?</p>
+
+      <p>Isso acontece com muita gente e, na maioria das vezes, <strong>não significa que você não tenha direito</strong>. Abaixo, explico os erros mais comuns, o que eles causam e como evitar perder direitos importantes.</p>
+
+      <h3>Pediu o benefício errado</h3>
+
+      <p>Existem diferentes benefícios para cada grupo de trabalhadores e em diferentes situações. Só dentro da questão de incapacidade, existem duas espécies de benefícios por incapacidade (temporária e permanente). Além disso, há <strong>códigos corretos</strong> no pedido, os quais definirão se o caso da incapacidade se origina do trabalho ou não.</p>
+
+      <p>Essa análise requer um estudo minucioso, pois a legislação trata a questão muitas vezes de um modo complexo e, noutras vezes, sem previsão da realidade, devido aos avanços sociais.</p>
+
+      <p>A investigação profunda de qual benefício e qual código aplicável ao caso implica sérias consequências no valor da renda mensal, podendo repercutir em outros direitos e benefícios no futuro. Por exemplo: no caso de um auxílio-acidente (empregado, trabalhador avulso ou empregado doméstico) e até na vida dos dependentes — como no caso de uma esposa que buscou pensão por morte do falecido e descobriu que, em vida, ele estava recebendo <strong>benefício assistencial</strong>, concedido de forma indevida pelo INSS, o qual não concede direito à pensão.</p>
+
+      <p>E ainda, dependendo do benefício por incapacidade concedido em vida, o valor da pensão por morte pode ser de <strong>50% do salário de benefício + 10% por pessoa</strong> ou de <strong>100%</strong>. Ou seja: por mais que a pessoa consiga algum benefício, se for o benefício errado, ela perde direitos e deixa de proteger a própria família.</p>
+
+      <h3>Confundiu doença com incapacidade</h3>
+
+      <p>Apesar do nome antigo, “auxílio-doença”, <strong>não é a doença que gera o direito</strong>. Atente-se para o nome atual: <strong>Benefício por Incapacidade</strong>. Há muitas pessoas que convivem com doenças e nem por isso são incapazes de trabalhar, devido a tratamentos médicos que estão em constante evolução.</p>
+
+      <p>No entanto, não é preciso estar acamado para se considerar alguém com incapacidade. É o caso, por exemplo, daquele que continua trabalhando com problemas de saúde intensos, suportando a dor para garantir o pão, mas colocando em risco a própria vida e, até sem perceber, a de outras pessoas.</p>
+
+      <p>A análise da incapacidade é tão profunda e complexa que pode ocorrer dificuldade na avaliação pelos próprios laudos emitidos pelo médico associados à realidade da pessoa — ou, simplesmente, por falta de orientação adequada.</p>
+
+      <p>Por exemplo: um médico disse que uma pessoa com problema no trato urinário não tem incapacidade para o trabalho. Isso foi um equívoco do médico (não em sua especialidade), mas do ponto de vista da Previdência, pois ele não fez análise real da vida da paciente em seu trabalho e da repercussão dessa condição de saúde em seu cotidiano.</p>
+
+      <p>Na hipótese de ela ser vigia, teria que se retirar diversas vezes do posto para trocar a fralda encharcada, sem contar com o incômodo persistente da sensação de bexiga cheia.</p>
+
+      <p>Outra dificuldade está nas informações do <strong>PPP</strong> emitido pela empresa, quando não descreve condições de trabalho importantes para associar com o problema que o trabalhador tem (que pode ser físico ou psíquico). Esses são exemplos que dificultam a comprovação na via administrativa do INSS: o perito analisa o indivíduo, mas não tem noção do dia a dia daquele trabalhador.</p>
+
+      <h3>A via administrativa</h3>
+
+      <p>Muitas pessoas reclamam do INSS em razão do erro no indeferimento após um longo tempo de espera. A via administrativa é um caminho mais rápido e, por isso, é importante que a pessoa esteja munida de documentos válidos que deixem evidente tratar-se de incapacidade, seja temporária ou permanente.</p>
+
+      <p>Apesar disso, é importante lembrar que a Autarquia é composta por pessoas — e pessoas podem cometer erros com sérias repercussões na vida do trabalhador segurado.</p>
+
+      <p>A Lei dos Benefícios e outras normas regulamentares da própria autarquia (INSS) trazem requisitos analisados de modo padronizado. Porém, a via administrativa, em qualquer contexto, é dentro da própria Instituição, e seus erros podem ser levados ao Poder Judiciário.</p>
+
+      <p>Em outras palavras: o INSS analisa de forma fria (requisitos legais + documentos), mas é nas ações judiciais que provamos as falhas na análise ou simplesmente o direito, através da realidade de cada trabalhador — o que muitas vezes não é visto no processo administrativo. Há casos em que o INSS chega a negar o direito sem sequer solicitar documento que faltou (Carta de Exigência).</p>
+
+      <p>Ainda assim, é essencial requerer primeiro na via administrativa, realizando toda declaração correta da vida trabalhista, ajustando o histórico de trabalho, corrigindo pendências e alertas — sob pena de impedir a análise judicial ou mesmo perder direitos.</p>
+
+      <h3>Quando buscar orientação?</h3>
+
+      <p>O ideal é buscar orientação <strong>antes mesmo de qualquer pedido</strong>. O requerimento feito da maneira errada pode fazer você perder direitos essenciais, como o direito ao retroativo (valores relativos aos meses em que você aguardou a resposta do INSS) e até o reconhecimento de outros vínculos de trabalho (perda de tempo de contribuição e carência), o que pode afetar inclusive o valor da renda mensal.</p>
+
+      <p>Há entendimentos na Justiça de que a falta de informação logo no primeiro pedido pode acarretar a extinção da análise de vínculo não indicado, como tempo especial, rural, professor e outros ainda não registrados.<sup>1</sup> São decisões que exigem um “segurado ninja”, como comentou certa vez o professor Malcon Robert, servidor da Justiça Federal, professor, autor de livros e especialista em Direito Previdenciário.</p>
+
+      <p>Por fim, cada caso exige análise individualizada, respeitando a história profissional e clínica do segurado. Daí a importância de buscar um especialista em Direito Previdenciário para analisar o seu caso em específico, pois um erro no pedido pode lhe fazer perder direitos e proteção aos seus dependentes.</p>
+
+      <hr />
+
+      <p><strong>Referências</strong><br />
+      <sup>1</sup> Enunciado 135 das Turmas Recursais do Rio de Janeiro — Publicado em 12.11.2025</p>
+
+      <p><strong>Letícia Marinho</strong><br />
+      Advogada Previdenciária com especialização pela ESA - PB<br />
+      Revisora linguística e jurídica</p>
+    `,
+  },
+
+
 ]
 
 // Helper defensivo (já validado por você)

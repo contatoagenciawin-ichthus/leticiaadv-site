@@ -6,6 +6,11 @@ import { articles } from "@/data/articles";
 import Link from "next/link";
 
 export function ArticlesSection() {
+  // 🔹 Ordena do mais recente para o mais antigo
+  const sortedArticles = [...articles].sort((a, b) => {
+    return b.id - a.id; // mantém simples e previsível
+  });
+
   return (
     <section
       id="artigos"
@@ -18,6 +23,7 @@ export function ArticlesSection() {
               <BookOpen size={16} />
               <span>Biblioteca de Direitos</span>
             </div>
+
             <h2 className="font-serif text-4xl text-ink">
               Entenda o seu <span className="italic text-sage">momento</span>
             </h2>
@@ -29,7 +35,7 @@ export function ArticlesSection() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {articles.map((article, index) => (
+          {sortedArticles.map((article, index) => (
             <Link
               href={`/artigos/${article.slug}`}
               key={article.id}
@@ -40,7 +46,7 @@ export function ArticlesSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
-                className="group flex flex-col h-full justify-between"
+                className="group flex flex-col h-full justify-between rounded-2xl"
               >
                 <div className="space-y-4">
                   <div className="flex items-center justify-between text-xs text-ink/40 uppercase border-b border-ink/10 pb-3">

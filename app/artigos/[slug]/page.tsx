@@ -31,7 +31,10 @@ export default async function ArticlePage({ params }: Props) {
             href="/#artigos"
             className="inline-flex items-center gap-2 text-ink/60 hover:text-sage transition-colors text-sm font-bold uppercase tracking-widest group"
           >
-            <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
+            <ArrowLeft
+              size={16}
+              className="group-hover:-translate-x-1 transition-transform"
+            />
             Voltar para artigos
           </Link>
 
@@ -52,6 +55,14 @@ export default async function ArticlePage({ params }: Props) {
     "https://wa.me/5583987524107?text=" +
     encodeURIComponent(`Li o artigo "${post.title}" e gostaria de tirar uma dúvida.`)
 
+  // ✅ CSS local só para artigos (ganha do typography/prose)
+  const articleJustifyStyle = `
+    .article-content p,
+    .article-content li {
+      text-align: justify !important;
+    }
+  `
+
   return (
     <article className="min-h-screen bg-paper pb-24">
       <div className="container mx-auto px-6 pt-32 pb-8">
@@ -59,7 +70,10 @@ export default async function ArticlePage({ params }: Props) {
           href="/#artigos"
           className="inline-flex items-center gap-2 text-ink/60 hover:text-sage transition-colors text-sm font-bold uppercase tracking-widest group"
         >
-          <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
+          <ArrowLeft
+            size={16}
+            className="group-hover:-translate-x-1 transition-transform"
+          />
           Voltar para artigos
         </Link>
       </div>
@@ -67,7 +81,9 @@ export default async function ArticlePage({ params }: Props) {
       <div className="container mx-auto px-6 max-w-3xl">
         <header className="mb-12 text-center space-y-6 border-b border-ink/10 pb-12">
           <div className="flex items-center justify-center gap-4 text-xs font-bold tracking-widest uppercase text-sage">
-            <span className="bg-sage/10 px-3 py-1 rounded-full">{post.category}</span>
+            <span className="bg-sage/10 px-3 py-1 rounded-full">
+              {post.category}
+            </span>
             <span className="flex items-center gap-1 text-ink/40">
               <Clock size={12} /> {post.readTime}
             </span>
@@ -83,36 +99,39 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         </header>
 
+        {/* ✅ Justificado somente nos artigos (CSS local) */}
+        <style>{articleJustifyStyle}</style>
+
         <div
-          className="prose prose-lg prose-headings:font-serif prose-headings:text-ink prose-p:text-ink/80 prose-p:leading-relaxed prose-a:text-sage hover:prose-a:text-ink prose-strong:text-ink prose-blockquote:border-sage prose-blockquote:text-ink/60 prose-blockquote:font-serif prose-blockquote:italic mx-auto"
+          className="article-content prose prose-lg prose-headings:font-serif prose-headings:text-ink prose-p:text-ink/80 prose-p:leading-relaxed prose-a:text-sage hover:prose-a:text-ink prose-strong:text-ink prose-blockquote:border-sage prose-blockquote:text-ink/60 prose-blockquote:font-serif prose-blockquote:italic mx-auto"
           dangerouslySetInnerHTML={{ __html: post.content || "" }}
         />
 
-        
         <div className="mt-20 p-8 md:p-12 bg-ink rounded-3xl text-center relative overflow-hidden group">
-  <div className="relative z-10 space-y-6">
-    <h3 className="font-serif text-3xl text-paper">
-      Quer que eu olhe o seu caso?
-    </h3>
+          <div className="relative z-10 space-y-6">
+            <h3 className="font-serif text-3xl text-paper">
+              Quer que eu olhe o seu caso?
+            </h3>
 
-    <p className="text-paper/80 font-light text-lg max-w-lg mx-auto">
-      Me conte, em poucas linhas, o que aconteceu. Eu te respondo com o caminho mais seguro.
-    </p>
+            <p className="text-paper/80 font-light text-lg max-w-lg mx-auto">
+              Me conte, em poucas linhas, o que aconteceu. Eu te respondo com o
+              caminho mais seguro.
+            </p>
 
-    <a
-      href={whatsappUrl}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-flex items-center gap-2 bg-sage text-ink px-8 py-4 rounded-xl font-bold hover:bg-sage/80 transition-all duration-300 shadow-lg shadow-sage/20"
-    >
-      <MessageCircle size={20} />
-      Falar no WhatsApp
-    </a>
-  </div>
+            <a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-sage text-ink px-8 py-4 rounded-xl font-bold hover:bg-sage/80 transition-all duration-300 shadow-lg shadow-sage/20"
+            >
+              <MessageCircle size={20} />
+              Falar no WhatsApp
+            </a>
+          </div>
 
-  <div className="absolute top-0 right-0 w-64 h-64 bg-sage/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2 pointer-events-none group-hover:bg-sage/30 transition-all duration-700" />
-  <div className="absolute bottom-0 left-0 w-64 h-64 bg-clay/20 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2 pointer-events-none group-hover:bg-clay/30 transition-all duration-700" />
-</div>
+          <div className="absolute top-0 right-0 w-64 h-64 bg-sage/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2 pointer-events-none group-hover:bg-sage/30 transition-all duration-700" />
+          <div className="absolute bottom-0 left-0 w-64 h-64 bg-clay/20 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2 pointer-events-none group-hover:bg-clay/30 transition-all duration-700" />
+        </div>
       </div>
     </article>
   )

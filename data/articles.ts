@@ -13,6 +13,115 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    id: 8,
+    slug: "aposentadoria-especial-lei-da-epoca",
+    title: "Aposentadoria especial: como a lei da época pode mudar seu direito",
+    excerpt:
+      "Entenda o princípio 'tempus regit actum' e por que a análise da Aposentadoria Especial exige um estudo minucioso do histórico de vínculos antes de cada mudança na lei.",
+    date: "26 FEV 2026",
+    category: "Aposentadoria Especial",
+    readTime: "12 min de leitura",
+    content: `
+      <p>Antes de iniciar o tema, é importante lembrar do princípio <strong>tempus regit actum</strong>, que em palavras simples significa: devemos aplicar a Lei daquele tempo. É por isso que brinco dizendo: “leia a Lei e tudo o que riscaram nela.” E, de fato, é assim que deve ser feito, porque no Direito Previdenciário, alguns dispositivos podem estar mortos para novas gerações, o que pode não ser o caso para pessoas que começaram um vínculo com o INSS antes de cada Emenda à Constituição.</p>
+
+      <p>Continuando…</p>
+
+      <p>Como especialista na área, costumo sempre analisar o período contributivo do trabalhador e a Lei que se aplicava na época. Isso é muito importante, principalmente em matéria de Aposentadoria Especial, porque por um bom tempo, a norma classificava as atividades especiais em dois grupos:<br />
+      <strong>“Os expostos a agentes nocivos”</strong><br />
+      <strong>“A categoria profissional”</strong></p>
+
+      <p>Hoje, os únicos enquadrados em atividade especial por Categoria Profissional são os agentes comunitários de saúde e de combate às endemias, por própria disposição constitucional. Porém, é importante estudar num determinado histórico de vínculos, se a atividade do segurado se encaixa nesse segundo grupo, antes da vigência da Lei 9.032/1995.</p>
+
+      <p>Assim, em um histórico de trabalho de algum segurado podemos ver esse detalhe: se as atividades realizadas por ele até 28 de abril de 1995 são classificadas como especiais por categoria profissional, o que pode ser extraído na lista anexa ao Decreto 53.831/64 e 83.080/79, vigente à época. Caso contrário, será necessário comprovar exposição a agentes nocivos, conforme a legislação aplicável ao período.</p>
+
+      <p>Pois bem, dada essa introdução importante. Adentramos no assunto.</p>
+
+      <h3>O que é?</h3>
+      <p>É um benefício concedido pelo INSS para quem contribuiu enquanto trabalhava sempre exposto a agentes nocivos à saúde, por insalubridade, periculosidade ou penosidade em alguns casos. A ideia é beneficiar pessoas que ao longo de suas vidas tiveram maior desgaste físico e moral causado pelo trabalho.</p>
+
+      <h3>Como provar?</h3>
+      <p>Deve-se provar os seguintes aspectos:</p>
+
+      <p><strong>1. Exposição a agentes nocivos:</strong> preferencialmente comprovada por um documento chamado <strong>PPP - Perfil Profissiográfico Previdenciário</strong>, que é emitido pela empresa (e ela é obrigada a emitir quando o trabalhador solicita). Nele devem constar os agentes nocivos aos quais o trabalhador esteve exposto.</p>
+
+      <blockquote>
+        <p><strong>Obs.</strong> Períodos entre 14.10.1996 e 31.12.2003 podem ser comprovados com os Formulários:<br />
+        – PPRA: Programa de Prevenção de Riscos Ambientais<br />
+        – PGR: Programa de Gerenciamento de Risco<br />
+        – PCMAT: Programa de Condições e Meio Ambiente de Trabalho na Indústria da Construção<br />
+        – PCMSO: Programa de Controle Médico de Saúde Ocupacional</p>
+      </blockquote>
+
+      <p><strong>2. A permanência dessa atividade</strong> pode ser provada pelo próprio histórico do CNIS, aliada a CTPS e outras formas de comprovação confiáveis de que não havia interrupções longas dessa atividade. Porém, não confunda: a Lei não exige exposição durante toda a jornada de trabalho. O que importa é, segundo o STJ no Resp. 1578404 PR 2016/0013603-0: <strong>Risco, Intensidade e Concentração</strong> da própria atividade à qual o trabalhador está obrigado a se expor, o que é capaz de ocasionar prejuízo à sua saúde e integridade física.</p>
+
+      <p><strong>3. Idade atrelada ao tempo mínimo da atividade</strong>, que para a maioria é de 25 anos. Conforme tabela abaixo:</p>
+
+      <h3>Qual o direito diferenciado na Aposentadoria Especial?</h3>
+      <p>É o tempo de contribuição e a idade mínima. Para entender, veja o quadro:</p>
+
+      <div class="overflow-x-auto">
+        <table class="min-w-full border border-ink/10 my-6 text-sm">
+          <thead class="bg-ink/5">
+            <tr>
+              <th class="border p-3 text-left">Tempo de contribuição</th>
+              <th class="border p-3 text-left">Atividade Especial</th>
+              <th class="border p-3 text-left">Idade mínima</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border p-3 font-bold text-sage">15 anos</td>
+              <td class="border p-3">Mineração de subsolo em frente de produção</td>
+              <td class="border p-3">55</td>
+            </tr>
+            <tr>
+              <td class="border p-3 font-bold text-sage">20 anos</td>
+              <td class="border p-3">Exposição a asbestos (amianto)</td>
+              <td class="border p-3">58</td>
+            </tr>
+            <tr>
+              <td class="border p-3 font-bold text-sage">25 anos</td>
+              <td class="border p-3">Qualquer outra atividade nociva</td>
+              <td class="border p-3">60</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p><em>Obs. Essa tabela não exclui as regras de transição e de direito adquirido, que podem ser analisadas por especialistas.</em></p>
+
+      <h3>O que é considerado Agente Nocivo para fins de Aposentadoria Especial?</h3>
+      <p>Temos três espécies de agentes nocivos: insalubridade, periculosidade e penosidade.</p>
+
+      <p>Quanto à <strong>insalubridade</strong>, podemos citar exemplos:<br />
+      <strong>Físicos:</strong> Ruídos, vibrações, calor, trepidação.<br />
+      <strong>Químicos:</strong> Berílio (ligas metálicas), Arsênio (tintas, inseticidas), benzeno, hidrocarboneto (óleos e graxas), Chumbo (pilhas, baterias), poeiras e gases.<br />
+      <strong>Biológicos:</strong> Germes infecciosos, microrganismos e parasitas infecciosos.</p>
+
+      <p>A <strong>Periculosidade</strong> abrange a possibilidade iminente e real do risco. Existem três aspectos comuns neste caso: produtos inflamáveis ou explosivos, eletricidade ou o uso de arma de fogo.</p>
+
+      <p>Já a <strong>penosidade</strong> é vista no desgaste físico ou mental de atividade como dos professores, motoristas de ônibus (cobrador também), caminhoneiro, tratorista rural, entre outros. Embora atualmente não seja reconhecida de modo automático, existem situações específicas que ainda são consideradas.</p>
+
+      <h3>CONCLUSÃO</h3>
+      <p>É fato que a instituição de idade mínima para a aposentadoria especial pela EC 103/2019 suscita debates relevantes quanto à proteção constitucional do trabalhador, especialmente sob a ótica da dignidade da pessoa humana e da vedação ao retrocesso social. Parte dessas discussões encontra-se atualmente submetida à análise do STF na ADI 6309, entre outras controvérsias.</p>
+
+      <p>De todo modo, a complexidade normativa e as dificuldades de comprovação não impedem que uma análise técnica criteriosa identifique caminhos e estratégias adequadas para cada situação concreta, seja na via administrativa, seja na judicial.</p>
+
+      <p>A aposentadoria especial exige estudo minucioso do histórico contributivo e da legislação vigente à época de cada vínculo. Um único período corretamente enquadrado pode alterar significativamente o tempo necessário para a concessão do benefício, inclusive com reflexos em outras modalidades previdenciárias.</p>
+
+      <p>Este artigo apresenta uma visão introdutória do tema, sendo recomendável a análise individualizada de cada caso, à luz da legislação e da jurisprudência aplicáveis.</p>
+
+      <hr />
+      <p><strong>NORMAS CORRELATAS:</strong><br />
+      <small>Constituição da República Federativa do Brasil de 1988 – art. 201, §1º, II<br />
+      Lei 8.213/91 – art. 57 e 58<br />
+      Decreto 3.048/99 – arts. 64 a 70<br />
+      Decreto 53.831/64 e Decreto 83.080/79 e seus anexos<br />
+      IN 128/2022 – arts. 260 a 302</small></p>
+    `,
+  },
+  
+  {
     id: 1,
     slug: "inss-negou-auxilio-doenca",
     title: "O INSS negou seu auxílio-doença: a luta apenas começou",
